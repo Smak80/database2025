@@ -1,0 +1,11 @@
+ebean:
+  ddl:
+    generate: true
+    run: true
+
+datasource:
+  db:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/stud36x?currentSchema=public
+    driver: org.postgresql.Driver
