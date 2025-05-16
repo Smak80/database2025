@@ -2,6 +2,7 @@ ebean:
   ddl:
     generate: true
     run: true
+    mode: create-only
 
 datasource:
   db:
