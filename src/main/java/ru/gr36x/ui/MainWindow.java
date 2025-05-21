@@ -10,7 +10,7 @@ import java.awt.*;
 
 public class MainWindow extends JFrame {
     private JTable tStudents;
-    private JTable tGrades;
+    //private JTable tGrades;
 
 
     public MainWindow(){
@@ -21,7 +21,7 @@ public class MainWindow extends JFrame {
         grid.setLayout(gridLayout);
         getContentPane().add(grid);
         tStudents= new JTable();
-        tGrades= new JTable();
+        //tGrades= new JTable();
         String[] columnNames = {"Имя", "Фамилия", "Группа"};
         var studModel= new DefaultTableModel(columnNames, 0);
         studModel.addRow(new Object[]{"Ivan","Ivanov","09-632"});
